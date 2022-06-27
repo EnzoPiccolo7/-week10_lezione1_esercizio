@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+}
+.content {
+    background: url(../fotoprofilo.jpeg) no-repeat;
+    margin-left: 2.8rem;
+
+}
+.head {
+    display: flex;
+}
+.head > p:nth-child(1) {
+    width: 9rem;
+    letter-spacing: 0.056em;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-left: 2rem;
+   }
+.head > p:nth-child(2) {
+    letter-spacing: 0.056em;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-left: 2rem;
+   }
+  .infopersonali {
+    margin-left: 1.6rem;
+  }
+  p {
+    font-weight: 500;
+  }
+
+.lavoro{
+    margin-left: 12px;
+    margin-top: 2rem;
+  }
+    
+.lavoro > span:nth-child(2) {
+       margin-left: 1.1rem;
+  }
+  
